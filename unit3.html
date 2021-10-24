@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dynamic Gallery</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Dynamic Gallery</h1>
+    Resize the brower window to change the images
+
+    <hr>
+    Technology<br>
+ <picture>
+  <source media="(min-width: 321px)" srcset="images/tech/small.jpg">
+  <source media="(min-width: 426px)" srcset="images/tech/medium.jpg">
+  <source media="(min-width: 769px)" srcset="images/tech/large.jpg">
+  <img src="images/tech/tiny.jpg" style="width:auto;">
+</picture>
+<hr>
+    Games<br>
+ <picture>
+  <source media="(min-width: 321px)" srcset="images/games/small.jpg">
+  <source media="(min-width: 426px)" srcset="images/games/medium.jpg">
+  <source media="(min-width: 769px)" srcset="images/games/large.jpg">
+  <img src="images/games/tiny.png" style="width:auto;">
+</picture>
+<hr>
+    Movies<br><br>
+ <picture>
+  <source media="(min-width: 321px)" srcset="images/movies/small.jpg">
+  <source media="(min-width: 426px)" srcset="images/movies/medium.jpg">
+  <source media="(min-width: 769px)" srcset="images/movies/large.jpg">
+  <img src="images/movies/tiny.jpg" style="width:auto;">
+</picture>
+  </body>
+  <footer><i>© 2021 Ralph Pearcy</i> </footer>
+</html>
