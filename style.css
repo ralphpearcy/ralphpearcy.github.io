@@ -1,0 +1,9 @@
+body {
+  background: lightblue url("background.jpg") no-repeat fixed center;
+}
+a {
+  color: whitesmoke;
+}
+h1 {
+  color: whitesmoke;
+}
